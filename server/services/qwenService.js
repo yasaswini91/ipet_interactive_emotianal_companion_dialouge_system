@@ -263,10 +263,19 @@ export const qwenService = {
       }
 
       if (!looksLocalOllama && (c.apiKey || looksOpenAICompat)) {
+        let targetModel = c.baseModel || companionConfig.llm.baseModel || 'qwen-2.5-32b';
+        if (endpoint.includes('groq.com')) {
+          targetModel = (c.baseModel && c.baseModel.includes('qwen')) ? c.baseModel : 'qwen-2.5-32b';
+        } else if (endpoint.includes('together')) {
+          targetModel = (c.baseModel && c.baseModel.includes('Qwen')) ? c.baseModel : 'Qwen/Qwen2.5-7B-Instruct';
+        } else if (endpoint.includes('openrouter')) {
+          targetModel = (c.baseModel && c.baseModel.includes('qwen')) ? c.baseModel : 'qwen/qwen-2.5-7b-instruct';
+        }
+
         const text = await callOpenAICompatible({
           endpoint,
           apiKey: c.apiKey,
-          model: c.useFinetuned ? modelName : (c.ollamaModel.includes('qwen') ? c.ollamaModel : companionConfig.llm.baseModel),
+          model: c.useFinetuned ? modelName : targetModel,
           systemPrompt,
           userPrompt,
           messages,
@@ -275,8 +284,8 @@ export const qwenService = {
           maxTokens: effectiveMaxTokens,
           timeoutMs: c.timeoutMs
         });
-        logEvent('qwen.success', { task, backend: 'openai_compatible' });
-        return { text, source: 'REAL_LLM', backend: 'openai_compatible', model: modelName, modelStatus: companionConfig.llm.modelStatus };
+        logEvent('qwen.success', { task, backend: 'openai_compatible', model: targetModel });
+        return { text, source: 'REAL_LLM', backend: 'openai_compatible', model: targetModel, modelStatus: companionConfig.llm.modelStatus };
       }
     } catch (err) {
       errors.push(err.message);

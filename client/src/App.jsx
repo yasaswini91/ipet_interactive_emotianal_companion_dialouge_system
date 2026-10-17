@@ -178,6 +178,21 @@ export default function App() {
       api.getStats(currentPet._id).then(r => setStats(r));
 
       return result;
+    } catch (err) {
+      console.error('Chat error:', err);
+      const userMsg = {
+        _id: 'temp-' + Date.now(),
+        sender: 'user',
+        content: text,
+        createdAt: new Date().toISOString()
+      };
+      const petErrorMsg = {
+        _id: 'err-' + Date.now(),
+        sender: 'pet',
+        content: `*whimpers softly* I had trouble reaching my server (${err.message || 'connection error'}). Please verify the backend is running!`,
+        createdAt: new Date().toISOString()
+      };
+      setMessages(prev => [...prev, userMsg, petErrorMsg]);
     } finally {
       setIsChatLoading(false);
     }

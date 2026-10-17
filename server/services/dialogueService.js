@@ -108,6 +108,45 @@ function sanitizePetReply(rawText, pet, masterName, userMessage = '', detectedUs
   return text;
 }
 
+function generateFallbackPetReply(pet, masterName, userMessage = '', detectedUserEmotion = null) {
+  const animal = getPetAnimalBehaviors(pet?.species, pet?.breed);
+  const personality = pet?.personality || 'Easygoing';
+  const emotion = detectedUserEmotion?.emotion || 'neutral';
+  const lowerMsg = (userMessage || '').toLowerCase();
+
+  if (lowerMsg.includes('hello') || lowerMsg.includes('hi') || lowerMsg.includes('hey')) {
+    if (personality === 'Sunny') return `${animal.sampleAction} Yay, ${masterName}! I was waiting for you! How has your day been?`;
+    if (personality === 'Tsundere') return `${animal.sampleAction} Hmph! It's not like I was waiting for you or anything, ${masterName}... but I'm glad you're here.`;
+    if (personality === 'Foodie') return `${animal.sampleAction} Hi ${masterName}! Did you bring any yummy treats today? Or just extra cuddles?`;
+    return `${animal.sampleAction} Hello ${masterName}! It's so nice to talk to you. I'm having a cozy day!`;
+  }
+
+  if (emotion === 'sad' || lowerMsg.includes('sad') || lowerMsg.includes('tired') || lowerMsg.includes('hard day') || lowerMsg.includes('exhausted')) {
+    return `${animal.comfortAction} I sense you've had a heavy moment, ${masterName}. I'm right here beside you, and I won't leave your side. Take a deep breath with me!`;
+  }
+
+  if (emotion === 'happy' || lowerMsg.includes('happy') || lowerMsg.includes('great') || lowerMsg.includes('yay') || lowerMsg.includes('awesome')) {
+    return `${animal.sampleAction} Woop! Hearing your happiness makes my whole day shine, ${masterName}! Tell me everything!`;
+  }
+
+  if (lowerMsg.includes('cuddle') || lowerMsg.includes('hug') || lowerMsg.includes('snuggle') || lowerMsg.includes('pet')) {
+    return `${animal.cuddleAction} Mmm... warm snuggles with you are the best part of my entire day, ${masterName}!`;
+  }
+
+  // Default personality-driven conversational response
+  if (personality === 'Sunny') {
+    return `${animal.sampleAction} I love our chats, ${masterName}! Every little thing you share is my favorite story!`;
+  } else if (personality === 'Tsundere') {
+    return `${animal.sampleAction} Well... I suppose I can spare some time to listen to you, ${masterName}. Go on!`;
+  } else if (personality === 'Foodie') {
+    return `${animal.sampleAction} Listening to you is almost as delightful as a warm bowl of snacks, ${masterName}!`;
+  } else if (personality === 'Otaku') {
+    return `${animal.sampleAction} That sounds like a thrilling plot twist, ${masterName}! What happens next?`;
+  }
+
+  return `${animal.sampleAction} I'm listening closely, ${masterName}! I love spending this peaceful time right next to you.`;
+}
+
 function hasMemoryPotential(message) {
   if (!message || message.trim().length < 8) return false;
   const informativeKeywords = [
@@ -190,14 +229,20 @@ export const dialogueService = {
       sessionTurnCount: (history || []).length
     });
 
-    // 7. Qwen Dialogue Generation (ultra-fast, max 25 tokens = ~4-6s on CPU)
-    let rawResponse = await llmService.callLLM({
-      systemPrompt,
-      userPrompt,
-      messages,
-      temperature: companionConfig.llm.temperature || 0.7,
-      maxTokens: 25
-    });
+    // 7. Qwen Dialogue Generation
+    let rawResponse = '';
+    try {
+      rawResponse = await llmService.callLLM({
+        systemPrompt,
+        userPrompt,
+        messages,
+        temperature: companionConfig.llm.temperature || 0.7,
+        maxTokens: 25
+      });
+    } catch (llmErr) {
+      console.warn('[DialogueService] LLM call failed or unconfigured, using personality fallback:', llmErr.message);
+      rawResponse = generateFallbackPetReply(pet, masterName, userMessage, detectedUserEmotion);
+    }
 
     // Clean and strictly scope response to pet persona only
     const cleanedReply = sanitizePetReply(rawResponse, pet, masterName, userMessage, detectedUserEmotion);
