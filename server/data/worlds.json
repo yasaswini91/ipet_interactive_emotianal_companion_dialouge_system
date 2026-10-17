@@ -4729,5 +4729,661 @@
     "generatedAt": "2026-10-08T16:26:58.411Z",
     "createdAt": "2026-10-08T16:26:58.415Z",
     "updatedAt": "2026-10-08T16:26:58.415Z"
+  },
+  {
+    "_id": "7be612b3-c5d2-4b45-ba89-a9c7dfce599d",
+    "userId": "8fde3805-ab84-4035-b7e0-1b8141d45fde",
+    "petId": "0394aa05-c4c6-4e99-8a3a-24d57728e558",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "**T1:**  \nMorning Breakfast – Mousse enjoys her breakfast in her cozy living room, savoring a warm cup of tea as she prepares herself for her busy morning activities.",
+    "schedules": [
+      {
+        "time": "07:00",
+        "activity": "Wake up"
+      },
+      {
+        "time": "07:30",
+        "activity": "Prepare for cooking"
+      },
+      {
+        "time": "08:00",
+        "activity": "Fast-food breakfast"
+      },
+      {
+        "time": "09:00",
+        "activity": "Walk in park"
+      },
+      {
+        "time": "10:00",
+        "activity": "Read cozy book"
+      },
+      {
+        "time": "11:00",
+        "activity": "Meet Max"
+      },
+      {
+        "time": "13:00",
+        "activity": "Cook dinner"
+      }
+    ],
+    "details": [
+      {
+        "time": "07:00",
+        "activity": "Wake up",
+        "detail": "Mousse wakes up to the scent of freshly brewed coffee in the morning aroma. She stretches her soft, fluffy ears against the cool floor, enjoying the comfort of her warm blanket."
+      },
+      {
+        "time": "07:30",
+        "activity": "Prepare for cooking",
+        "detail": "Mousse wakes up in the warm embrace of her cozy living room, enjoying a cup of steaming hot tea as she begins her day. The aroma of freshly brewed coffee wafts through the air, while the sound of her favorite radio plays softly in the background. She gently strokes her smooth fur, brushing it against the cool glass surface of the teacup. Mousse takes a deep breath, savoring every moment before beginning her morning routine."
+      },
+      {
+        "time": "08:00",
+        "activity": "Fast-food breakfast",
+        "detail": "Mousse sips her warm mug of coffee, enjoying a leisurely moment before heading to the park for a quick run."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Gentle Rain",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with gentle rain"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:06:44.378Z",
+    "createdAt": "2026-10-08T18:06:44.383Z",
+    "updatedAt": "2026-10-08T18:06:44.383Z"
+  },
+  {
+    "_id": "61677721-91df-43ce-bc90-3ce2672f6d51",
+    "userId": "4e80215b-987f-43c3-8bbc-261ac39ec2c2",
+    "petId": "7f61d929-1469-433a-9316-3ae937a951a1",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "**Morning Breakfast:**  \nMousse wakes up early, feeling refreshed from her recent hike through the mountains and a cup of herbal tea. She starts the day by getting dressed, munching on a handful of wildflowers she found under the oak tree. Afterward, she goes for a brisk walk around the nearby lake.",
+    "schedules": [
+      {
+        "time": "07:00",
+        "activity": "Get dressed"
+      },
+      {
+        "time": "07:30",
+        "activity": "Walk in park"
+      },
+      {
+        "time": "09:00",
+        "activity": "Read a cozy book"
+      },
+      {
+        "time": "11:30",
+        "activity": "Cook dinner"
+      }
+    ],
+    "details": [
+      {
+        "time": "07:00",
+        "activity": "Get dressed",
+        "detail": "Mousse gets dressed in her cozy white sweater and light blue jeans as she heads to the kitchen to make breakfast."
+      },
+      {
+        "time": "07:30",
+        "activity": "Walk in park",
+        "detail": "Mousse wakes up early, feels fresh after a hike and a cup of herbal tea, starting her morning routine with a brisk walk around the nearby park. The view offers a peaceful escape as she admires the vibrant flowers and the water reflecting the sky above."
+      },
+      {
+        "time": "09:00",
+        "activity": "Read a cozy book",
+        "detail": "Mousse wakes up at dawn, her eyes still wide as she reads the latest chapter of 'The Wildflowers' by Anne Murray. The scent of the wildflowers fills her lungs as she sits down on a bench near the water fountain, surrounded by lush greenery."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Partly Cloudy",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with partly cloudy"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:08:14.723Z",
+    "createdAt": "2026-10-08T18:08:14.729Z",
+    "updatedAt": "2026-10-08T18:08:14.729Z"
+  },
+  {
+    "_id": "a3213788-82d5-493d-962d-df116e726ebd",
+    "userId": "a099be5e-8b94-49ec-b8ea-5238ebefb462",
+    "petId": "1c4c0e09-40e7-4067-aa40-ccb76c86dd87",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "**Today’s Pet Life**",
+    "schedules": [
+      {
+        "time": "06:00",
+        "activity": "Wake up early"
+      },
+      {
+        "time": "07:00",
+        "activity": "Prepare for grooming"
+      },
+      {
+        "time": "09:00",
+        "activity": "Feed and play with Mousse"
+      },
+      {
+        "time": "11:00",
+        "activity": "Take Mousse for a walk outside"
+      },
+      {
+        "time": "12:00",
+        "activity": "Read a storybook with Mousse"
+      },
+      {
+        "time": "14:00",
+        "activity": "Cook Mousse's favorite meal together"
+      },
+      {
+        "time": "15:00",
+        "activity": "Play fetch with Mousse"
+      }
+    ],
+    "details": [
+      {
+        "time": "06:00",
+        "activity": "Wake up early",
+        "detail": "Mousse woke up at 4 AM, her coat still slightly damp from the night out. She rubbed her eyes lazily before stretching. Her fluffy fur was covered in dew, and she couldn’t help but giggle."
+      },
+      {
+        "time": "07:00",
+        "activity": "Prepare for grooming",
+        "detail": "Mousse has just received her regular grooming appointment at the local pet salon. She looks sleek and well-groomed as she steps out of the salon. As she walks home through the park, she imagines the happy faces on others' faces after receiving such attention."
+      },
+      {
+        "time": "09:00",
+        "activity": "Feed and play with Mousse",
+        "detail": "Mousse, the cat, wakes up at 9 AM, ready for breakfast. As she stretches, her ears perk up, indicating she’s just had some delicious kibble. The warm sunbeam gently bathes her fur, casting golden rays that make her eyes sparkle. She naps on her favorite bed, snuggled between its soft blankets. Outside, the gentle breeze carries the scent of freshly baked cookies, bringing a hint of warmth and freshness."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Gentle Rain",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with gentle rain"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:10:38.020Z",
+    "createdAt": "2026-10-08T18:10:38.024Z",
+    "updatedAt": "2026-10-08T18:10:38.024Z"
+  },
+  {
+    "_id": "f26a1f18-c69d-4e75-948b-95f383496527",
+    "userId": "ebc6d3d9-a687-4d0d-a358-515fd3b05f65",
+    "petId": "22f77d56-80ed-481a-b06e-221823a683cf",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "Today is Mousse's first day at the new office. As the morning sun breaks through the clouds, she eagerly gets up from her cozy sofa, stretching and smiling. She quickly packs her bag, grabs her favorite coffee mug, and heads out the door. After packing, Mousse finds herself wandering through the bustling city streets, stopping at a local café to grab some snacks before heading home. Lunchtime arrives, and as she bites into her favorite sandwich, she feels a sense of peace wash over her. With a deep breath, she decides to spend the afternoon exploring the city park, where she meets friend Max who is taking a refreshing swim in the nearby river. After the swim, they head back home, eager to start their day off right",
+    "schedules": [
+      {
+        "time": "06:00",
+        "activity": "Wake up early"
+      },
+      {
+        "time": "06:30",
+        "activity": "Prepare for cooking"
+      },
+      {
+        "time": "07:00",
+        "activity": "Walk in park"
+      },
+      {
+        "time": "08:00",
+        "activity": "Read cozy book"
+      },
+      {
+        "time": "10:00",
+        "activity": "Fast-food breakfast"
+      },
+      {
+        "time": "12:00",
+        "activity": "Meet Max"
+      },
+      {
+        "time": "14:30",
+        "activity": "Cook dinner"
+      },
+      {
+        "time": "16:00",
+        "activity": "Go grocery shopping"
+      }
+    ],
+    "details": [
+      {
+        "time": "06:00",
+        "activity": "Wake up early",
+        "detail": "Mousse wakes up early, stretches, and smiles as she prepares for the day. The sun warms her face, and she sets off on her journey towards the new office."
+      },
+      {
+        "time": "06:30",
+        "activity": "Prepare for cooking",
+        "detail": "Mousse prepares for the busy day ahead, stretching while sipping on a cup of freshly brewed coffee. The aroma of baking goods fills the room as she begins the preparation of her lunchbox, ready to tackle the various tasks ahead."
+      },
+      {
+        "time": "07:00",
+        "activity": "Walk in park",
+        "detail": "Mousse walks into the vibrant park, feeling relaxed and refreshed after the early morning hike. The park is alive with nature's sounds—birds chirping and leaves rustling. She pauses by a serene pond, splashing water on her face. A gentle breeze brings a sense of calm that calms her inner turmoil. Mousse takes a seat on a bench under a fluffy cloud, enjoying the moment. "
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Clear Sky",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with clear sky"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:14:06.423Z",
+    "createdAt": "2026-10-08T18:14:06.430Z",
+    "updatedAt": "2026-10-08T18:14:06.430Z"
+  },
+  {
+    "_id": "aa7cc7b6-4461-4f8a-a684-0b2380a97070",
+    "userId": "1607cfd8-db6f-42c0-991a-d0e57f71ed56",
+    "petId": "eecc5306-d173-4906-8a90-ba0e3d61a4a8",
+    "date": "2026-10-09",
+    "mode": "NORMAL",
+    "outline": "**T1: Morning**",
+    "schedules": [
+      {
+        "time": "07:00",
+        "activity": "Wake up and check potty."
+      },
+      {
+        "time": "08:00",
+        "activity": "Feed Mousse and give it some space."
+      },
+      {
+        "time": "10:00",
+        "activity": "Take Mousse for a walk around the neighborhood."
+      },
+      {
+        "time": "12:00",
+        "activity": "Watch Mousse play with toys on the porch."
+      },
+      {
+        "time": "13:00",
+        "activity": "Read a cozy story by Mousse."
+      },
+      {
+        "time": "15:00",
+        "activity": "Feed Mousse again and clean up toys."
+      }
+    ],
+    "details": [
+      {
+        "time": "07:00",
+        "activity": "Wake up and check potty.",
+        "detail": "Mousse gently yawns as she hears the morning sound of the clock ticking."
+      },
+      {
+        "time": "08:00",
+        "activity": "Feed Mousse and give it some space.",
+        "detail": "Mousse is curled up on the bed, purring contentedly, as she enjoys her nap."
+      },
+      {
+        "time": "10:00",
+        "activity": "Take Mousse for a walk around the neighborhood.",
+        "detail": "Mousse eagerly awaits the morning walk around the neighborhood, eager to explore its vibrant parks and admire the colorful flowers."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Clear Sky",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with clear sky"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:15:56.725Z",
+    "createdAt": "2026-10-08T18:15:56.732Z",
+    "updatedAt": "2026-10-08T18:15:56.732Z"
+  },
+  {
+    "_id": "faefece2-983d-41c1-a11e-0059cf93be2b",
+    "userId": "ea2406a3-3f29-4dac-a2f9-41f40a35e56d",
+    "petId": "72df5935-a90a-4b51-8785-22eae0a3895e",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "**Outline**",
+    "schedules": [
+      {
+        "time": "07:00",
+        "activity": "Mousetime - Play fetch with Mousse"
+      },
+      {
+        "time": "09:00",
+        "activity": "Feed Mousse - Feed Mousse and Catnip"
+      },
+      {
+        "time": "11:00",
+        "activity": "Mousetime - Play hide-and-seek with Mousse"
+      },
+      {
+        "time": "13:00",
+        "activity": "Feed Mousse - Feed Mousse and Catnip"
+      },
+      {
+        "time": "15:00",
+        "activity": "Mousetime - Play chase with Mousse"
+      },
+      {
+        "time": "17:00",
+        "activity": "Feed Mousse - Feed Mousse and Catnip"
+      }
+    ],
+    "details": [
+      {
+        "time": "07:00",
+        "activity": "Mousetime - Play fetch with Mousse",
+        "detail": "Mousetime begins at 07:00. With enthusiasm, Mousse eagerly prepares her toys for play fetch. The sun sets as she catches up with her friend Theo in the backyard. As they run through the park, Mousse enjoys the joyous chase. Their laughter fills the air, and Mousse feels content knowing that together, she can make it through another round of fetch."
+      },
+      {
+        "time": "09:00",
+        "activity": "Feed Mousse - Feed Mousse and Catnip",
+        "detail": "Mousse eagerly awaits food at home as she feeds her catnip. The soft sound of her food pellets falling from the container resonates through the cozy living room, creating an ambient aroma that makes Mousse smile."
+      },
+      {
+        "time": "11:00",
+        "activity": "Mousetime - Play hide-and-seek with Mousse",
+        "detail": "Mousetime, a playful game played by Mousse, a cat who enjoys hiding behind furniture, was scheduled from 11:00 AM until 1:00 PM."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Partly Cloudy",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with partly cloudy"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:17:58.009Z",
+    "createdAt": "2026-10-08T18:17:58.015Z",
+    "updatedAt": "2026-10-08T18:17:58.015Z"
+  },
+  {
+    "_id": "d053654b-e9e4-46d2-a057-2fb83180fb60",
+    "userId": "f8c10039-3ea7-456f-af61-f0d1497869ff",
+    "petId": "2bb6e3dd-3bd9-4be8-b82f-b2fe05060810",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "**Today's Outline for Mousse:**",
+    "schedules": [
+      {
+        "time": "06:00",
+        "activity": "WAKE UP EARLY"
+      },
+      {
+        "time": "07:00",
+        "activity": "GET READY FOR COOKING"
+      },
+      {
+        "time": "09:00",
+        "activity": "FAST-FOOD BREAKFAST"
+      },
+      {
+        "time": "10:00",
+        "activity": "MEET MAX IN PARK"
+      },
+      {
+        "time": "12:00",
+        "activity": "EAT A COTTAGE MEAL"
+      },
+      {
+        "time": "13:00",
+        "activity": "READ COZY BOOK"
+      },
+      {
+        "time": "15:00",
+        "activity": "COMBINE DINNER WITH FAMILY"
+      }
+    ],
+    "details": [
+      {
+        "time": "06:00",
+        "activity": "WAKE UP EARLY",
+        "detail": "Mousse woke up early, yawning widely as she stretched her legs. The sun was just beginning to peek through the curtains, casting a golden glow over the room. She brushed her hair gently before getting out of bed."
+      },
+      {
+        "time": "07:00",
+        "activity": "GET READY FOR COOKING",
+        "detail": "Mousse woke up early, stretched her warm paws, and got ready for cooking."
+      },
+      {
+        "time": "09:00",
+        "activity": "FAST-FOOD BREAKFAST",
+        "detail": "Mousse had been eating breakfast at the table in her designated spot. The aroma wafted through the air, filling her senses with warmth and anticipation."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Clear Sky",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with clear sky"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:19:49.307Z",
+    "createdAt": "2026-10-08T18:19:49.313Z",
+    "updatedAt": "2026-10-08T18:19:49.313Z"
+  },
+  {
+    "_id": "6e8e0b3e-a426-40aa-915d-aeffaffb809d",
+    "userId": "8bc8f8c6-17bd-4259-9a45-4c365c9d31fa",
+    "petId": "9d996bce-5f68-4971-8da2-3a6385b99c87",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "Today will begin with Luna’s morning breakfast. After a gentle walk in the park, she will spend some time studying together before heading to her favorite park area where she’ll play games. She'll also plan to catch up with her friend Max over coffee after her adventure.",
+    "schedules": [
+      {
+        "time": "7:00 AM",
+        "activity": "Get dressed and start preparing for the day."
+      },
+      {
+        "time": "7:30 AM",
+        "activity": "Walk in the park and enjoy fresh air."
+      },
+      {
+        "time": "9:00 AM",
+        "activity": "Study with Max over coffee."
+      },
+      {
+        "time": "11:00 AM",
+        "activity": "Cook dinner using Luna's new recipe."
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "Play games with friends at the park."
+      },
+      {
+        "time": "1:00 PM",
+        "activity": "Finish playing games and prepare for bedtime."
+      }
+    ],
+    "details": [
+      {
+        "time": "7:00 AM",
+        "activity": "Get dressed and start preparing for the day.",
+        "detail": "Luna begins her morning routine by getting dressed and planning to meet Max for coffee at the park."
+      },
+      {
+        "time": "7:30 AM",
+        "activity": "Walk in the park and enjoy fresh air.",
+        "detail": "Luna begins her day by walking through the park, inhaling the crisp, clean air. The scent of wildflowers fills her nostrils as she explores the lush greenery around her. Her eyes sparkle with excitement as she studies the plants and animals around her."
+      },
+      {
+        "time": "9:00 AM",
+        "activity": "Study with Max over coffee.",
+        "detail": "Luna, the rabbit, has just finished her morning walk in the park. As she sits on a cozy bench, surrounded by her green carpet, her tail swishing slightly under her feet. The sunlight filters through the branches of the nearby tree, casting long shadows that stretch out like golden threads across the landscape. She takes a deep breath, feeling the warmth of the sun on her neck and shoulders. Luna knows this moment is special, the first time she sees Max walking towards her from their shared spot."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Clear Sky",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with clear sky"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:22:11.610Z",
+    "createdAt": "2026-10-08T18:22:11.615Z",
+    "updatedAt": "2026-10-08T18:22:11.615Z"
+  },
+  {
+    "_id": "ff7b84b4-f312-477f-9a7b-8b7783c29900",
+    "userId": "cbbe380b-bceb-4c71-8788-6acfa7c1b4d7",
+    "petId": "99033910-a13a-4a0c-8521-e7926a365d18",
+    "date": "2026-10-09",
+    "mode": "MEMORY",
+    "outline": "Mousse wakes up at sunrise to enjoy her favorite tea. After waking up, she sets out on an adventure to catch up on her new books before heading to the local park. As she enjoys her coffee, she learns about Japan from a book she just bought online. She also plans her upcoming exams carefully. During the afternoon, she gets ready for a morning hike to the nearby mountain range. Finally, after finishing her homework and having a snack, she heads back home.",
+    "schedules": [
+      {
+        "time": "07:00 - 07:30",
+        "activity": "Wake up and prepare for tea."
+      },
+      {
+        "time": "07:30 - 09:00",
+        "activity": "Read a cozy book."
+      },
+      {
+        "time": "09:00 - 09:30",
+        "activity": "Walk in the park."
+      },
+      {
+        "time": "09:30 - 10:00",
+        "activity": "Enjoy coffee while reading."
+      },
+      {
+        "time": "10:00 - 10:30",
+        "activity": "Plan for tomorrow's exams."
+      }
+    ],
+    "details": [
+      {
+        "time": "07:00 - 07:30",
+        "activity": "Wake up and prepare for tea.",
+        "detail": "Mousse wakes up at dawn, dressed in a simple sundress. She prepares herself by sipping her usual cup of steaming green tea, which she prefers more than any other beverage. The first thing she notices is the vibrant cherry blossoms that bloom under the sun, painting the sky in shades of pink and purple. With a contented sigh, she stirs the pot and adds fresh water. As she waits for the aroma to fill the air, Mousse begins to ponder how she can make this perfect day extra special."
+      },
+      {
+        "time": "07:30 - 09:00",
+        "activity": "Read a cozy book.",
+        "detail": "Mousse reads a cozy book, surrounded by soft light and the sound of birds chirping. Her fur stretches lazily, and she exudes a contented smile as she settles into her comfortable chair."
+      },
+      {
+        "time": "09:00 - 09:30",
+        "activity": "Walk in the park.",
+        "detail": "Mousse walks through the vibrant, green park late in the day, sipping on her freshly brewed cup of steaming tea. She reads a Japanese novel while the sounds of birdsong fill the air, capturing the scent of pine trees. As she strolls along, Mousse takes note of the serene beauty of nature around her. Her mind wanders onto her studies, planning exams for the next class, but she quickly returns to the peaceful moment."
+      }
+    ],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Gentle Rain",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with gentle rain"
+    },
+    "isOfflineGenerated": true,
+    "generatedAt": "2026-10-08T18:25:00.911Z",
+    "createdAt": "2026-10-08T18:25:00.915Z",
+    "updatedAt": "2026-10-08T18:25:00.915Z"
+  },
+  {
+    "_id": "f2cf454d-a1cf-4e68-acd3-e2f2e7fb2241",
+    "userId": "f16db18c-3a8b-4b3e-a4e1-dc90ec049aff",
+    "petId": "d171b721-1f74-48c3-a54f-885d6af52556",
+    "date": "2026-10-09",
+    "mode": "NORMAL",
+    "outline": "A pleasant, sunny day filled with playful energy, grooming, and cozy afternoon resting.",
+    "schedules": [
+      {
+        "time": "09:00",
+        "activity": "Morning stretching and grooming"
+      },
+      {
+        "time": "13:00",
+        "activity": "Sunny afternoon nap"
+      },
+      {
+        "time": "17:00",
+        "activity": "Playful exploration"
+      }
+    ],
+    "details": [],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Clear Sky",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with clear sky"
+    },
+    "isOfflineGenerated": false,
+    "generatedAt": "2026-10-09T03:27:56.690Z",
+    "createdAt": "2026-10-09T03:27:56.703Z",
+    "updatedAt": "2026-10-09T03:27:56.703Z"
+  },
+  {
+    "_id": "3c6bbeb3-3b13-4fd1-9b6a-e9e07de3cbf8",
+    "userId": "1e366bf8-a9e0-4886-9b7b-1d028fe77f13",
+    "petId": "b5060723-5bcc-4827-a4ab-8413e2ac8a08",
+    "date": "2026-10-09",
+    "mode": "NORMAL",
+    "outline": "A pleasant, sunny day filled with playful energy, grooming, and cozy afternoon resting.",
+    "schedules": [
+      {
+        "time": "09:00",
+        "activity": "Morning stretching and grooming"
+      },
+      {
+        "time": "13:00",
+        "activity": "Sunny afternoon nap"
+      },
+      {
+        "time": "17:00",
+        "activity": "Playful exploration"
+      }
+    ],
+    "details": [],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Sunny",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with sunny"
+    },
+    "isOfflineGenerated": false,
+    "generatedAt": "2026-10-09T03:34:31.687Z",
+    "createdAt": "2026-10-09T03:34:31.691Z",
+    "updatedAt": "2026-10-09T03:34:31.691Z"
+  },
+  {
+    "_id": "af6ae242-ac0f-4cf6-bff0-089ed6231ef6",
+    "userId": "1c30f734-5f8e-4574-a11d-631d7ba7b374",
+    "petId": "c34bc49b-e96d-4eab-9228-37a07cf3f7d4",
+    "date": "2026-10-17",
+    "mode": "NORMAL",
+    "outline": "A pleasant, sunny day filled with playful energy, grooming, and cozy afternoon resting.",
+    "schedules": [
+      {
+        "time": "09:00",
+        "activity": "Morning stretching and grooming"
+      },
+      {
+        "time": "13:00",
+        "activity": "Sunny afternoon nap"
+      },
+      {
+        "time": "17:00",
+        "activity": "Playful exploration"
+      }
+    ],
+    "details": [],
+    "weather": {
+      "season": "Autumn",
+      "weather": "Gentle Rain",
+      "temperature": "20°C",
+      "description": "Pleasant autumn day with gentle rain"
+    },
+    "isOfflineGenerated": false,
+    "generatedAt": "2026-10-17T14:18:11.010Z",
+    "createdAt": "2026-10-17T14:18:11.016Z",
+    "updatedAt": "2026-10-17T14:18:11.016Z"
   }
 ]

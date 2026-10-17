@@ -895,5 +895,41 @@
     },
     "createdAt": "2026-10-08T16:32:02.781Z",
     "updatedAt": "2026-10-08T16:32:02.784Z"
+  },
+  {
+    "_id": "1e366bf8-a9e0-4886-9b7b-1d028fe77f13",
+    "username": "alex",
+    "email": "ale@gmail.com",
+    "password": "$2a$10$IEXD9nIwbItPVgof.uz8KOnyzZFGOtTdp5WyHIVuAu8YKd77st3o6",
+    "name": "alex",
+    "interests": [
+      "reading",
+      "music",
+      "programming"
+    ],
+    "preferences": {
+      "favoriteFood": "pasta",
+      "leisure": "park strolls"
+    },
+    "createdAt": "2026-10-09T03:34:02.331Z",
+    "updatedAt": "2026-10-09T03:34:02.333Z"
+  },
+  {
+    "_id": "822a1148-a1a1-450c-84f3-fcc2915caff7",
+    "username": "test_master",
+    "email": "master_1792246547179@example.com",
+    "password": "hashedpassword",
+    "name": "Super Programmer",
+    "interests": [
+      "reading sci-fi",
+      "programming",
+      "parks"
+    ],
+    "preferences": {
+      "favoriteFood": "pasta",
+      "leisure": "park strolls"
+    },
+    "createdAt": "2026-10-17T14:15:47.179Z",
+    "updatedAt": "2026-10-17T14:15:47.183Z"
   }
 ]

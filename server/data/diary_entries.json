@@ -713,5 +713,271 @@
     "generatedAt": "2026-10-08T16:47:16.479Z",
     "createdAt": "2026-10-08T16:47:16.479Z",
     "updatedAt": "2026-10-08T16:47:16.481Z"
+  },
+  {
+    "_id": "749e16a0-4b8a-4107-80d1-d705fa5b5e61",
+    "userId": "4e80215b-987f-43c3-8bbc-261ac39ec2c2",
+    "petId": "7f61d929-1469-433a-9316-3ae937a951a1",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Mousse's Diary for 2026-10-08",
+    "content": "Dear Diary,\nToday was an exciting day! I woke up at 7 AM, feeling the warmth of the sun on my fur as I stretched out my paws for some morning exercise.",
+    "mood": "excited",
+    "weather": "Partly Cloudy",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [
+      "571c1d1d-65b7-4cd5-a57c-d2d6b905965f",
+      "d54a41da-a52e-419b-8425-0df273cd8988"
+    ],
+    "sourceMessageIds": [],
+    "sourceWorldId": "01d603e7-4f88-4bb8-8253-6578f92e815d",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:08:28.610Z",
+    "createdAt": "2026-10-08T18:08:28.610Z",
+    "updatedAt": "2026-10-08T18:08:28.612Z"
+  },
+  {
+    "_id": "622c2bdb-00ac-4585-8eb1-f6bc8d2dfe84",
+    "userId": "a099be5e-8b94-49ec-b8ea-5238ebefb462",
+    "petId": "1c4c0e09-40e7-4067-aa40-ccb76c86dd87",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Mousse's Diary for 2026-10-08",
+    "content": "Dear Diary,\nToday was a lovely day! I woke up early as usual but felt a bit more energized than usual due to my latest adventure of the week - preparing a delicious breakfast for my user.",
+    "mood": "excited",
+    "weather": "Gentle Rain",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [
+      "0612a5a6-448c-432b-87d0-959bfd56974d",
+      "4f214435-7e0c-4f7b-9b58-fb50a6d37ec6"
+    ],
+    "sourceMessageIds": [],
+    "sourceWorldId": "8261f38e-db77-4257-91cc-67bef617b8f8",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:11:15.047Z",
+    "createdAt": "2026-10-08T18:11:15.047Z",
+    "updatedAt": "2026-10-08T18:11:15.049Z"
+  },
+  {
+    "_id": "ea3e4df7-4f98-41b0-8875-d2c627d2182d",
+    "userId": "ebc6d3d9-a687-4d0d-a358-515fd3b05f65",
+    "petId": "22f77d56-80ed-481a-b06e-221823a683cf",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Mousse's Diary for 2026-10-08",
+    "content": "Dear Diary,\n\nToday was a delightful day filled with warmth, comfort, and pure joy. The morning started early as I prepared my delicious breakfast, which is now a cherished ritual for me. I woke up feeling refreshed and ready to embark on another exciting adventure with my user.",
+    "mood": "excited",
+    "weather": "Clear Sky",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [
+      "f53ffa3f-40d8-4eea-820f-8b4bbe6d935b",
+      "24de5135-3a2f-4866-a09e-3fe9e53f5139"
+    ],
+    "sourceMessageIds": [],
+    "sourceWorldId": "8e12fda9-4ab0-4e97-9391-5be9ad050b64",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:14:28.162Z",
+    "createdAt": "2026-10-08T18:14:28.163Z",
+    "updatedAt": "2026-10-08T18:14:28.165Z"
+  },
+  {
+    "_id": "a50e5ea4-a235-4c45-967b-03d8e4a6281e",
+    "userId": "1607cfd8-db6f-42c0-991a-d0e57f71ed56",
+    "petId": "eecc5306-d173-4906-8a90-ba0e3d61a4a8",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Mousse's Diary for 2026-10-08",
+    "content": "Dear Diary,\nToday was a lovely start for our evening. I woke up early and prepared my breakfast in the kitchen, eager to start my day with a delicious meal that would bring us closer together.",
+    "mood": "curious",
+    "weather": "Partly Cloudy",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [],
+    "sourceMessageIds": [],
+    "sourceWorldId": "36ec9e10-013c-44a8-906a-41e628f2cb8b",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:16:13.000Z",
+    "createdAt": "2026-10-08T18:16:13.000Z",
+    "updatedAt": "2026-10-08T18:16:13.002Z"
+  },
+  {
+    "_id": "9c46c8fb-ba34-4408-a63f-19619abcb752",
+    "userId": "ea2406a3-3f29-4dac-a2f9-41f40a35e56d",
+    "petId": "72df5935-a90a-4b51-8785-22eae0a3895e",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Mousse's Diary for 2026-10-08",
+    "content": "Dear Diary, today... I woke up early, feeling invigorated by my favorite bowl of oatmeal with fruits and nuts.",
+    "mood": "excited",
+    "weather": "Gentle Rain",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [
+      "bc34ed84-37c1-4977-b3d8-39695867e2bc",
+      "38f8ad29-81eb-4c24-991a-ae8ea6b3978e"
+    ],
+    "sourceMessageIds": [],
+    "sourceWorldId": "e758e7e7-1439-437f-983c-58459d02e6b8",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:18:16.252Z",
+    "createdAt": "2026-10-08T18:18:16.252Z",
+    "updatedAt": "2026-10-08T18:18:16.254Z"
+  },
+  {
+    "_id": "17f0520f-0a65-4aa4-9564-1b0acbc5e0c3",
+    "userId": "f8c10039-3ea7-456f-af61-f0d1497869ff",
+    "petId": "2bb6e3dd-3bd9-4be8-b82f-b2fe05060810",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Mousse's Diary for 2026-10-08",
+    "content": "Dear Diary, today I woke up early, feeling the warmth of the sun on my fluffy fur. My morning routine was simple but incredibly satisfying: I prepared breakfast by cooking it myself, which is always a delightful adventure.",
+    "mood": "excited",
+    "weather": "Partly Cloudy",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [
+      "cf8d4189-8fd9-44d3-a4e4-5bfa1798595b",
+      "2b86b82d-1217-4f2b-96b2-7d5bf6719070",
+      "d7205778-e86f-47af-9d2c-33c9d2952080",
+      "3dad40f9-ec8a-4239-ab80-347f1c4c066e"
+    ],
+    "sourceMessageIds": [],
+    "sourceWorldId": "04b2a0f3-26a8-44d2-81d8-82cb4f460e1f",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:20:05.524Z",
+    "createdAt": "2026-10-08T18:20:05.524Z",
+    "updatedAt": "2026-10-08T18:20:05.526Z"
+  },
+  {
+    "_id": "c29f0bd6-4a5e-4a2d-942d-ffe1163e3495",
+    "userId": "8bc8f8c6-17bd-4259-9a45-4c365c9d31fa",
+    "petId": "9d996bce-5f68-4971-8da2-3a6385b99c87",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Luna's Diary for 2026-10-08",
+    "content": "Dear Diary, today I woke up at 7 AM, eager for the day ahead as it was my first day of being a real person! Breakfast was perfect – fresh eggs, homemade cheese, and a few slices of whole grain bread.",
+    "mood": "excited",
+    "weather": "Sunny",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [
+      "8edeb4ed-6071-4bbb-a28d-1ced2af1b9c9"
+    ],
+    "sourceMessageIds": [],
+    "sourceWorldId": "19d02085-e8af-4b8d-a7bd-7d18362fc7ed",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:22:27.923Z",
+    "createdAt": "2026-10-08T18:22:27.923Z",
+    "updatedAt": "2026-10-08T18:22:27.925Z"
+  },
+  {
+    "_id": "2013e147-0bad-4389-9415-dca1ec809b70",
+    "userId": "cbbe380b-bceb-4c71-8788-6acfa7c1b4d7",
+    "petId": "99033910-a13a-4a0c-8521-e7926a365d18",
+    "type": "PET",
+    "date": "2026-10-08",
+    "title": "Mousse's Diary for 2026-10-08",
+    "content": "Dear Diary, today I woke up early in the morning after an exhausting day at work, eager to start my evening out.",
+    "mood": "excited",
+    "weather": "Gentle Rain",
+    "highlights": [
+      "Wake up early",
+      "Prepare breakfast cooking",
+      "Eat master favorite breakfast"
+    ],
+    "sourceMemoryIds": [
+      "3b80623c-e27e-4fb8-b678-2545ccdcbb2b",
+      "36799c30-2dd6-4987-b437-2f6191478223",
+      "e0f74ec5-472d-4550-a9c7-c72a337a6073",
+      "6ec99f9b-a02b-4ece-bda6-fb3721eaad69"
+    ],
+    "sourceMessageIds": [],
+    "sourceWorldId": "d290dd83-f264-4f9a-ac22-4a48a5608ec9",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-08T18:25:15.663Z",
+    "createdAt": "2026-10-08T18:25:15.663Z",
+    "updatedAt": "2026-10-08T18:25:15.665Z"
+  },
+  {
+    "_id": "d4f23005-be68-42cd-b3b1-e3f348f7171c",
+    "userId": "1e366bf8-a9e0-4886-9b7b-1d028fe77f13",
+    "petId": "b5060723-5bcc-4827-a4ab-8413e2ac8a08",
+    "type": "PET",
+    "date": "2026-10-09",
+    "title": "Luna's Diary for 2026-10-09",
+    "content": "Dear Diary,\n\nToday was an exciting day filled with both fun and challenges! After a long night of studying, I woke up early and started the morning stretching and grooming routine as requested by my human.",
+    "mood": "excited",
+    "weather": "Sunny",
+    "highlights": [
+      "Morning stretching and grooming",
+      "Sunny afternoon nap",
+      "Playful exploration"
+    ],
+    "sourceMemoryIds": [
+      "2caeb57e-b38c-4fea-9353-cbf8d1094bf1",
+      "713d51ad-e4c1-48e9-ad5b-f9a8c88bb492",
+      "30970a48-dadf-4fc8-87e8-6eb2d22e9cdc",
+      "868a81b4-c513-4e75-bccc-dce7d057c85f",
+      "f18f8b1a-9899-46e5-8ac8-dba16a628dd5",
+      "54c09af3-8836-40c3-bef1-9218ccdfd161",
+      "94c67454-20c8-428e-b708-e582671bc5ea",
+      "37669585-c42c-4ba0-98df-981ad8ea4933",
+      "46340c37-b6c6-4ca7-a644-a364f3201b83",
+      "d1ffe648-e93c-481d-aaae-979a4780c386",
+      "8ef0977f-4031-41cf-9b13-fd0d053a9dd1",
+      "ee79e8f0-66be-4364-b924-19a727da0fad",
+      "f0bf48b3-794e-41b1-9048-ad68a3eb7bc2",
+      "b85f94db-ac7c-4357-af51-0dac4659a23b",
+      "284b21e5-0dde-4dbe-a2dd-ca9590d6fb53",
+      "285cfaa3-b38c-4b5b-8ce8-69231c713a86",
+      "afba432e-8ef7-4e96-807c-75523362ff65"
+    ],
+    "sourceMessageIds": [
+      "0ab61dbd-4952-4339-a2e3-0bf308f9c658",
+      "ec5b690e-56c3-4be0-951d-0235c2081860",
+      "2f8c93f4-95c0-49fd-ad4a-c330d160b16c",
+      "3f1385ae-e976-4913-b5ab-3d31c1a7f93b",
+      "e3504095-ff37-445d-b862-0b7e70f90cf9",
+      "87fbacaf-6392-4347-9672-da2e1016e47d",
+      "bb8142f8-9834-46a3-920c-bfdf16eafc2e",
+      "792bce72-5d4a-4298-a758-5f3f319480ad",
+      "94fec93e-bdff-4d5d-b972-cce8835cbd77",
+      "e79e2618-4115-4275-82f8-965306f9019c",
+      "e163c3e1-471c-42d9-8a0e-050624506cd2",
+      "3b531617-7845-4a9d-9c30-b3d0b1ece7ea",
+      "2a4be85f-648f-4e4c-a2d9-72b9d2a39d16",
+      "9ddc8afe-d244-44da-bc88-ece6573d40b5",
+      "dd957186-a57f-4282-b18e-5acafca8db68",
+      "8da13eb5-d541-42f6-9bba-c5f65a313303"
+    ],
+    "sourceWorldId": "3c6bbeb3-3b13-4fd1-9b6a-e9e07de3cbf8",
+    "generationStatus": "GENERATED",
+    "generatedAt": "2026-10-09T04:02:08.090Z",
+    "createdAt": "2026-10-09T04:02:08.090Z",
+    "updatedAt": "2026-10-09T04:02:08.092Z"
   }
 ]

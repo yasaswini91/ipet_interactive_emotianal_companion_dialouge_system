@@ -1201,5 +1201,52 @@
     },
     "createdAt": "2026-10-08T16:32:02.787Z",
     "updatedAt": "2026-10-08T16:32:02.789Z"
+  },
+  {
+    "_id": "b5060723-5bcc-4827-a4ab-8413e2ac8a08",
+    "userId": "1e366bf8-a9e0-4886-9b7b-1d028fe77f13",
+    "name": "Luna",
+    "species": "cat",
+    "breed": "Mousse Maine",
+    "personality": "Motivational",
+    "hobbies": [
+      "studying together",
+      "playing games",
+      "park strolls"
+    ],
+    "description": "A loving motivational Mousse Maine who loves study companionship and joyful daily adventures.",
+    "avatarUrl": "",
+    "customization": {
+      "color": "#f3f4f6",
+      "eyeColor": "#023047",
+      "accessory": "none",
+      "outfit": "default",
+      "roomTheme": "warm_cottage"
+    },
+    "createdAt": "2026-10-09T03:34:31.651Z",
+    "updatedAt": "2026-10-09T03:34:31.653Z"
+  },
+  {
+    "_id": "2bf3a193-2e95-4aad-a365-47528d18e331",
+    "userId": "822a1148-a1a1-450c-84f3-fcc2915caff7",
+    "name": "Mousse",
+    "species": "cat",
+    "breed": "Mousse Maine",
+    "personality": "Easygoing",
+    "hobbies": [
+      "playing games",
+      "afternoon napping"
+    ],
+    "description": "A gentle and caring little cat who loves to laugh",
+    "avatarUrl": "",
+    "customization": {
+      "color": "#ffb703",
+      "eyeColor": "#023047",
+      "accessory": "none",
+      "outfit": "default",
+      "roomTheme": "warm_cottage"
+    },
+    "createdAt": "2026-10-17T14:15:47.221Z",
+    "updatedAt": "2026-10-17T14:15:47.223Z"
   }
 ]

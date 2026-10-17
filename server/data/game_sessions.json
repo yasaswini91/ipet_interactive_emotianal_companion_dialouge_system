@@ -22,5 +22,29 @@
     "timestamp": "2026-10-08T10:58:10.127Z",
     "createdAt": "2026-10-08T10:58:10.127Z",
     "updatedAt": "2026-10-08T10:58:10.127Z"
+  },
+  {
+    "_id": "a0b57bb9-0b0e-4ab3-a15c-716c99f9a244",
+    "userId": "f16db18c-3a8b-4b3e-a4e1-dc90ec049aff",
+    "petId": "d171b721-1f74-48c3-a54f-885d6af52556",
+    "gameType": "tictactoe",
+    "score": 25,
+    "result": "lost",
+    "duration": 45,
+    "timestamp": "2026-10-09T03:30:27.867Z",
+    "createdAt": "2026-10-09T03:30:27.867Z",
+    "updatedAt": "2026-10-09T03:30:27.902Z"
+  },
+  {
+    "_id": "b32b353a-49fb-454a-bcf6-d4e81cac1223",
+    "userId": "1e366bf8-a9e0-4886-9b7b-1d028fe77f13",
+    "petId": "b5060723-5bcc-4827-a4ab-8413e2ac8a08",
+    "gameType": "tictactoe",
+    "score": 100,
+    "result": "won",
+    "duration": 45,
+    "timestamp": "2026-10-09T04:15:00.931Z",
+    "createdAt": "2026-10-09T04:15:00.931Z",
+    "updatedAt": "2026-10-09T04:15:00.931Z"
   }
 ]
